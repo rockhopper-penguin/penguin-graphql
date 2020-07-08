@@ -1,0 +1,10 @@
+{
+  "name": "penguin-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Learning",
+  "main": "index.js",
+  "repository": "https://github.com/rockhopper-penguin/penguin-graphql",
+  "author": "Rockhopper-Penguin",
+  "license": "MIT",
+  "private": true
+}
