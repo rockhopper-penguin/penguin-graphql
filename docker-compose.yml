@@ -11,8 +11,9 @@ services:
       MYSQL_USER: penguin
       MYSQL_PASSWORD: penguin
       MYSQL_RANDOM_ROOT_PASSWORD: "1"
+      TZ: "Asia/Tokyo"
     volumes:
-      - db:/var/lib/mysql
+      - ./initdb.d:/initdb.d
 
 volumes:
   db:
