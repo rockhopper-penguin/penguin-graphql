@@ -13,7 +13,4 @@ services:
       MYSQL_RANDOM_ROOT_PASSWORD: "1"
       TZ: "Asia/Tokyo"
     volumes:
-      - ./initdb.d:/initdb.d
-
-volumes:
-  db:
+      - ./initdb.d:/docker-entrypoint-initdb.d
